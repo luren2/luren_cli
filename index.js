@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const program = require('commander');
 const helpOption = require('./lib/core/help');
-const createCommands = require('./lib/core/create');
+const { createCommands } = require('./lib/core/create');
 
 program.version(require('./package.json').version);
 
